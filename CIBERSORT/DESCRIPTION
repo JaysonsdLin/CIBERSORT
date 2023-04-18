@@ -2,10 +2,8 @@ Package: CIBERSORT
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
     person("lin", "jieyi", "295069787@qq.com", role = "aut",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
 Description: 将cibersort 提供的CIBERSORT.R整合成包.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -15,7 +13,5 @@ Imports: e1071, parallel, preprocessCore, stats, utils
 Depends: R (>= 2.10)
 NeedsCompilation: no
 Packaged: 2023-04-17 09:25:35 UTC; linjy
-Author: First Last [aut, cre] (YOUR-ORCID-ID)
-Maintainer: First Last <first.last@example.com>
 Author:  lin jieyi aut (YOUR-ORCID-ID)
 Maintainer: lin jieyit <295069787@qq.com>
